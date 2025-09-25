@@ -8,6 +8,7 @@ __pycache__/
 .venv/
 venv/
 env/
+sales_forecast_env/
 
 # Jupyter
 .ipynb_checkpoints
@@ -33,4 +34,3 @@ Thumbs.db
 # Environment / secrets
 .env
 *.env
-sales_forecast_env/
