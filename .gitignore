@@ -33,3 +33,4 @@ Thumbs.db
 # Environment / secrets
 .env
 *.env
+sales_forecast_env/
