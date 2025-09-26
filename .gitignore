@@ -20,7 +20,7 @@ dbt_packages/
 logs/
 
 # Data files
-data/raw_*.csv
+data/*.csv
 data/*.parquet
 *.db
 *.sqlite
