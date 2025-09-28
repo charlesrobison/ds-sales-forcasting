@@ -20,13 +20,9 @@ dbt_packages/
 logs/
 
 # Data files
-data/*.csv
-data/*.parquet
+data/
 *.db
 *.sqlite
-
-# DuckDB files
-data/*.duckdb
 
 # OS / Editor
 .DS_Store
