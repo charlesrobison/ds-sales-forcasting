@@ -27,6 +27,8 @@ data/*.parquet
 
 # DuckDB files
 data/*.duckdb
+data/dev.duckdb
+data/prod.duckdb
 
 # OS / Editor
 .DS_Store
