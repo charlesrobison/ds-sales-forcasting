@@ -25,6 +25,9 @@ data/*.parquet
 *.db
 *.sqlite
 
+# DuckDB files
+data/*.duckdb
+
 # OS / Editor
 .DS_Store
 Thumbs.db
