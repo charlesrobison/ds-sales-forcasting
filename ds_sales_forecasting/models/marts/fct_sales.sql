@@ -18,14 +18,15 @@ products as (
 final as (
 
 select
-    s.Sale_Date,
+    s.Sale_Date as sale_date,
     c.customer_id,
     p.product_key,
-    s.Region,
-    s.Sales_Rep,
-    s.Sales_Amount,
-    s.Quantity_Sold,
-    s.Discount
+    p.product_id,
+    s.Region as region,
+    s.Sales_Rep as sales_rep,
+    s.Sales_Amount as sales_amount,
+    s.Quantity_Sold as quantity_sold,
+    s.Discount as discount
 from sales as s
 left join customers as c
     on s.Customer_Type = c.customer_type
